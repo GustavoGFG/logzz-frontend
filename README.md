@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend do Desafio Logzz
 
-## Getting Started
+<p align="center">
+    <a href="https://logzz.com.br/" target="_blank"> 
+        <img src="./src/assets/images/logzz-green.svg" width="200" style="margin-bottom: 30px;">    
+    </a>
+</p>
 
-First, run the development server:
+## 📝 Introdução
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Este repositório contém a solução para o desafio da Logzz. Trata-se de um sistema simples de cadastro de produtos, construído com Next.js, utilizando uma API Node.js como backend.
+
+Versão em produção: [Acesse aqui]()
+
+## 🚀 Começando
+
+Siga as **instruções** abaixo para configurar o ambiente e rodar o front-end do projeto localmente.
+
+### 📋 Pré-requisitos
+
+- [Git](https://git-scm.com/downloads)
+- [Node (20.15.0)](https://nodejs.org/en/)
+- [NPM (8.5.5)](https://www.npmjs.com/)
+
+### 🔧 Instalação
+
+Após ter configurado o ambiente, siga as etapas para instalar o projeto:
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/GustavoGFG/logzz-frontend.git
+   ```
+
+2. Navegue até a pasta do projeto e execute o comando abaixo para instalar todas as dependências necessárias:
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Após a conclusão da instalação, crie o arquivo de configuração com o comando a seguir na raiz do projeto:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+copy .env.example .env
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Abra o arquivo `.env` e configure as variáveis de ambiente conforme necessário. Certifique-se de especificar a porta onde o backend está rodando:
 
-## Learn More
+```
+# Altere conforme necessidade
+NEXT_PUBLIC_API_URL="http://localhost:4000/api"
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. Pronto! Agora você pode executar o projeto usando os seguinte comando:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+npm run dev
+```
