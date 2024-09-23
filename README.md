@@ -1,16 +1,10 @@
 # Frontend do Desafio Logzz
 
-<p align="center">
-    <a href="https://logzz.com.br/" target="_blank"> 
-        <img src="./src/assets/images/logzz-green.svg" width="200" style="margin-bottom: 30px;">    
-    </a>
-</p>
-
 ## 📝 Introdução
 
 Este repositório contém a solução para o desafio da Logzz. Trata-se de um sistema simples de cadastro de produtos, construído com Next.js, utilizando uma API Node.js como backend.
 
-Versão em produção: [Acesse aqui]()
+Versão em produção: [Acesse aqui](https://logzz-frontend.vercel.app/signin)
 
 ## 🚀 Começando
 
